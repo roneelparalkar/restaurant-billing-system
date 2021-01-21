@@ -1,0 +1,67 @@
+module.exports = {
+  menuOptions: [
+    {
+      menuName: 'Dashboards',
+      type: 'master',
+      isAdminOnly: true,
+    },
+    {
+      menuName: 'Dashboard',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-rocket',
+      route: '/',
+    },
+    { menuName: 'MDM', type: 'master', isAdminOnly: true },
+    {
+      menuName: 'Employee Manager',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-users',
+      route: '/employee-manager',
+    },
+    {
+      menuName: 'Salary Manager',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-cash',
+      route: '/salary-manager',
+    },
+    {
+      menuName: 'Table Master',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-plugin',
+      route: '/table-master',
+    },
+    {
+      menuName: 'Raw Materials',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-plugin',
+      route: '/raw-materials',
+    },
+    {
+      menuName: 'Menu Master',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-menu',
+      route: '/menu-master',
+    },
+    { menuName: 'Report', type: 'master', isAdminOnly: true },
+    {
+      menuName: 'Sales Report',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-graph2',
+      route: '/sales-report',
+    },
+    {
+      menuName: 'Customer Report',
+      type: 'sub-menu',
+      isAdminOnly: true,
+      icon: 'pe-7s-graph3',
+      route: '/customer-report',
+    },
+  ],
+}
